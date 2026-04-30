@@ -1,0 +1,162 @@
+
+@media (min-width:768px) {
+	.head-main .head-logo-row {
+		border-bottom: 0px !important;
+	}
+}
+
+.head-main .form-control {
+	border-radius: 8px;
+}
+
+.search-input {
+	font-size: 1.08em;
+}
+
+.nav-desktop-list>.nav-item {
+	font-size: .88em;
+}
+
+.font-small {
+	font-size: .92em !important;
+}
+
+.item-price-container {
+	font-size: 1.54em;
+}
+
+/*	Botão de Comprar */
+.btn-primary, .btn-small {
+	width: 100% !important;
+	max-width: 100% !important;
+	box-sizing: border-box;
+	background: #209252;
+	color: #fff;
+	font-size: 0.96em;
+	font-weight: 600;
+	text-transform: uppercase !important;
+	border: 0;
+	border-radius: 5px;
+	padding: 8px 14px;
+	height: 34px;
+}
+
+.item-actions.d-inline-block {
+	display: block !important;
+	width: 100% !important;
+}
+
+.item-actions.d-inline-block .btn {
+	display: flex !important;
+	width: 100% !important;
+	max-width: 100% !important;
+	box-sizing: border-box !important;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+}
+
+.label {
+	font-size: .54em;
+}
+
+.item-description .price-compare {
+	font-size: .66em;
+}
+
+.item-price-container {
+	display: flex;
+	align-items: baseline;
+	/*justify-content: center;*/
+	gap: 6px;
+	flex-wrap: wrap;
+	margin-bottom: 12px;
+}
+
+.item-price {
+	font-size: 0.98rem;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.item-installments {
+	font-size: 14px !important;
+	font-weight: 600;
+	color: #6b6b6b !important;
+	white-space: nowrap;
+}
+
+.js-item-product, .item-product {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.item-description {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.item-actions.d-inline-block {
+	margin-top: auto;
+}
+
+.template-home .js-product-description, .js-quickshop-container .js-product-description {
+	display: none !important;
+	height: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.template-home .js-view-description, .js-quickshop-container .js-view-description {
+	display: none !important;
+	height: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.section-home.section-institucional-home-colors {
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.section-home.section-institucional-home-colors .btn {
+	border-radius: 8px;
+	font-size: 18px !important;
+	font-weight: 700;
+	padding: 16px 32px !important;
+	height: auto !important;
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	transition: all .3s ease;
+}
+
+.section-home.section-institucional-home-colors .btn:hover {
+	transform: scale(1.02);
+	box-shadow: 0 4px 12px rgba(32, 146, 82, .3);
+}
+
+.section-institutional-home-colors {
+	border-radius: 32px;
+}
+
+.section-institutional-home-colors .btn {
+	background-color: #4dc247;
+	color: #fff;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.form-quantity {
+    padding: 0;
+}
+
+.form-control, .form-select, .form-select-options, .form-quantity {
+    border: 0px;
+}
