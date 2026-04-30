@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300..800&display=swap');
+
 @media (min-width:768px) {
 	.head-main .head-logo-row {
 		border-bottom: 0px !important;
@@ -74,12 +76,15 @@
 }
 
 .item-price {
-	font-size: 0.98rem;
+	font-family: 'Outfit', sans-serif !important;
+	font-size: 1.1rem;
 	font-weight: 700;
 	line-height: 1;
+	letter-spacing: -0.5px;
 }
 
 .item-installments {
+	font-family: 'Outfit', sans-serif !important;
 	font-size: 14px !important;
 	font-weight: 600;
 	color: #6b6b6b !important;
